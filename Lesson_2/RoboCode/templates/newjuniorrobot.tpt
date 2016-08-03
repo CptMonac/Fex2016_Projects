@@ -13,24 +13,25 @@ public class $CLASSNAME extends JuniorRobot
 	 * run: $CLASSNAME's default behavior
 	 */
 	public void run() {
-		// Set your robot's colors --#2
 		// Some color codes: blue, yellow, black, white, red, pink, brown, grey, orange...
 		// Function: setColors(body color, gun color, radar color, bullet color, radar scan color)
+		// #2 -- Set your robot's colors
 
 		// Robot main loop
 		while(true) {
 			turnTo(0);
-			// Turn your robot right by 90 degrees --#3
 			// Function: turnRight(no. of degrees)
+			// #3 -- Turn your robot right by 90 degrees
 			
-			// Move your robot forward by 100 pixels --#4
 			// Function: ahead(no. of pixels)
-
-			// Move your robot backward by 100 pixels --#5
+			// #4 -- Move your robot forward by 100 pixels
+			
 			// Function: back(no. of pixels)
-
-			// Turn your robot left by 180 degrees --#6
+			// #5 -- Move your robot backward by 100 pixels 
+			
 			// Function: turnLeft(no. of degrees)
+			// #6 -- Turn your robot left by 180 degrees 
+			
 
 		}
 	}

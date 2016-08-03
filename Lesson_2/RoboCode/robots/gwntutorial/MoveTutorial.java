@@ -1,31 +1,39 @@
-package ayobot;
+package gwntutorial;
 import robocode.*;
 
 // API help : http://robocode.sourceforge.net/docs/robocode/robocode/JuniorRobot.html
+// This lesson will teach you how to move your robot around the field
 
 /**
- * SampleJuniorRobot - a robot by (your name here)
+ * MoveTutorial - a robot by (your team name here)
  */
-public class SampleJuniorRobot extends JuniorRobot
+public class MoveTutorial extends JuniorRobot
 {
 	/**
-	 * run: SampleJuniorRobot's default behavior
+	 * run: MoveTutorial's default behavior
 	 */
 	public void run() {
-		// Initialization of the robot should be put here
-
 		// Some color codes: blue, yellow, black, white, red, pink, brown, grey, orange...
-		// Sets these colors (robot parts): body, gun, radar, bullet, scan_arc
-		setColors(orange, blue, white, yellow, black);
+		// Function: setColors(body color, gun color, radar color, bullet color, radar scan color)
+		// #2 -- Set your robot's colors
 
 		// Robot main loop
 		while(true) {
-			// Replace the next 4 lines with any behavior you would like
+			
 			turnTo(0);
-			turnRight(90);
-			ahead(100);
-			back(100);
-			turnLeft(180);
+			
+			// Function: turnRight(no. of degrees)
+			// #3 -- Turn your robot right by 90 degrees
+			
+			// Function: ahead(no. of pixels)
+			// #4 -- Move your robot forward by 100 pixels
+			
+			// Function: back(no. of pixels)
+			// #5 -- Move your robot backward by 100 pixels 
+			
+			// Function: turnLeft(no. of degrees)
+			// #6 -- Turn your robot left by 180 degrees 
+			
 		}
 	}
 

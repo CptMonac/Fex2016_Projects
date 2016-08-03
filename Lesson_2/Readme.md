@@ -1,31 +1,46 @@
 #Robocode Lesson Plan
-1. Download & Install
 
-2. Start a battle
+##Initial Instructor Demo
+1. Download & Install Robocode
 
-3. Create your first robot
-	* Creating a robot can be easy
-	* Making your robot a winner is not :).
-	* Writing a robot can be addictive
-	* Once you get going, you'll watch your creation as it goes through growing pains, making mistakes and missing critical shots.
-	* As you learn, you'll be able to teach your robot how to act and what to do, where to go and who to avoid.
+2. Demo a robot battle
+	* Launch the 'robocode.bat' file.
+	* Click the 'Battle' menu, then select New
+	* Select the robot you would like to see battle and press the 'Add' button.
+	* Continue selecting and adding all robots you want to place on the battlefield.
+	* Press the 'Start battle' button.
 
-4. Create your first 'Junior' Robot
-	* Your robot consists of three parts: the tank body, the gun, and the radar
-	* Each of these parts can be moved independently from each other
-	* How to move the tank body around the battlefield
+---
+##Student Pair-programming sessions
 
-6. Scan the battlefield
-	* How to use the radar to scan the battlefield
-	* Sense of touch
-	* Sense of sight
-	* Other senses
-		When robot has died
-		When another robot has died
-		When robot has won the round
-		When bullet hit an opponent
-		When bullet hit wall
-		When bullet hit another bullet
+###Create your first robot
+* Creating a robot can be easy
+* Making your robot a winner is not :).
+* Writing a robot can be addictive
+* Once you get going, you'll watch your creation as it goes through growing pains, making mistakes and missing critical shots.
+* As you learn, you'll be able to teach your robot how to act and what to do, where to go and who to avoid.
+* The robot you will be creating is a simple one that moves side to side. This lesson will teach you how to move your robot around the field.
 
-7. Targeting basics
-	* How to target other tanks with your gun
+**Instructions**
+* Launch the 'robocode.bat' file
+* Click the 'Robot' menu option, then select 'Source Editor'
+* Click 'File', then 'Open'
+* Navigate to the 'robots' folder. Then, navigate tot he 'gwntutorial' folder.
+* Open the 'MoveTutorial.java' file.
+* There should be some sample code in the editor now.
+* Follow the instructions in the code to create your first robot.
+* After finishing every comment, save the program (Ctrl+S), and then compile (Ctrl+B).
+* Add your robot to the battlefield to see what it does so far.
+
+
+##Scan the battlefield
+* This lesson will teach you how to use the radar to scan the battlefield.
+
+**Instructions**
+* In the robot editor window, click 'File', then 'Open'
+* Navigate to the 'robots' folder. Then, navigate to the 'gwntutorial' folder.
+* Open the 'ScanTutorial.java' file
+* There should be some sample code in the editor now.
+* Follow the instructions in the code to create your first robot.
+* After finishing every comment, save the program (Ctrl+S), and then compile (Ctrl+B).
+* Add your robot to the battlefield to see what it does so far.
