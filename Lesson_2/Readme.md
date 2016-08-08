@@ -13,13 +13,15 @@
 ---
 ##Student Pair-programming sessions
 
-###Create your first robot
+1. Create your first robot
+* This lesson will teach you how to move your robot around the field.
+
 * Creating a robot can be easy
 * Making your robot a winner is not :).
 * Writing a robot can be addictive
 * Once you get going, you'll watch your creation as it goes through growing pains, making mistakes and missing critical shots.
 * As you learn, you'll be able to teach your robot how to act and what to do, where to go and who to avoid.
-* The robot you will be creating is a simple one that moves side to side. This lesson will teach you how to move your robot around the field.
+* The robot you will be creating is a simple one that moves side to side. 
 
 **Instructions**
 * Launch the 'robocode.bat' file
@@ -33,7 +35,7 @@
 * Add your robot to the battlefield to see what it does so far.
 
 
-##Scan the battlefield
+2. Scan the battlefield
 * This lesson will teach you how to use the radar to scan the battlefield.
 
 **Instructions**
@@ -44,3 +46,5 @@
 * Follow the instructions in the code to create your first robot.
 * After finishing every comment, save the program (Ctrl+S), and then compile (Ctrl+B).
 * Add your robot to the battlefield to see what it does so far.
+
+3. Battlefield tactics
