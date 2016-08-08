@@ -5,7 +5,7 @@ import robocode.*;
 // This lesson will teach you how to move your robot around the field
 
 /**
- * MoveTutorial - a robot by (your team name here)
+ *  #1 -- MoveTutorial - a robot by (your team name here)
  */
 public class MoveTutorial extends JuniorRobot
 {
