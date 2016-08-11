@@ -3,13 +3,27 @@ import robocode.*;
 
 /*
    This intro lesson will teach you how to create your first robot and move it around the battle field.
-   Additional reference information and documentation is available at: http://robocode.sourceforge.net/docs/robocode/robocode/JuniorRobot.html
+   Creating a robot can be easy, making your robot a winner is not :)
+   Writing a robot can be addictive. Once you get going, you'll watch your creation as it goes through growing pains, making mistakes and missing critical shots
+   As you learn, you'll be able to teach your robot how to act and what to do, where to go and who to avoid
 
    Pre-flight Instructions:
-   1. Follow the numbered instructions in order. E.g. #2 -- Set your robot's colors would be the second thing you do
+   1. Follow the numbered instructions in order. E.g. #1 -- Set your robot's colors -> would be the second thing you do
    2. In Java, lines must end with a semi-colon. Don't forget to add one at the end of each line.
    3. After finishing every comment, save the program (Ctrl+S), and then compile it (Ctrl+B).
    4. You can add your robot to the battlefield after every save to see what you've just changed.
+
+   Testing your robot on the battlefield:
+   1. If you don't have the Robocode program already open, double-click the 'robocode.bat' file in the Robocode folder
+   2. Click the 'Battle' menu, then select New
+   3. Under the 'Packages' column, select 'gwntutorial'. You should now see the list of GWN robots in the 'Robots' column on the right.
+   4. Pick the robot you're working on from the left (e.g. MoveTutorial) and press 'Add' button.
+   5. Press the 'Start Battle' button.
+   6. A dialog box will pop up telling you you've only selected one robot. If you're just testing, hit 'Yes' and continue.
+      Otherwise, hit 'No' and select another robot to battle against.
+
+   Additional reference information and documentation is available in the 'javadoc' folder under 'Robocode'
+
 */
 
 
