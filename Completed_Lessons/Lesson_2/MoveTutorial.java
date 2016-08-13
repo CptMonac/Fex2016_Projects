@@ -49,6 +49,7 @@ public class MoveTutorial extends JuniorRobot
                    This function sets the colors for your robot's body, gun, radar, bullets, and radar-scans.
             E.g. setColors(orange, red, yellow, blue, pink) -> orange body, red gun, yellow radar, blue bullets, pink radar-scans
     */
+    setColors(black, yellow, blue, white, red);
    
     while(true)
     {
@@ -66,6 +67,7 @@ public class MoveTutorial extends JuniorRobot
                      This function turns the robot right by the number of degrees you specify.
                      E.g. turnRight(12) -> turn the robot right by 12 degrees 
       */
+      turnRight(90);
       
       /*
          #3 -- Move your robot forward by 100 pixels.
@@ -75,6 +77,7 @@ public class MoveTutorial extends JuniorRobot
                      This function moves the robot ahead by the number of pixels you specify.
                      E.g. ahead(500) -> move the robot ahead by 500 pixels
       */
+      ahead(100);
       
       /*
          #4 -- Move your robot backward by 100 pixels.
@@ -83,6 +86,7 @@ public class MoveTutorial extends JuniorRobot
                     This function moves the robot backward by the number of pixels you specify.
                     E.g. back(500) -> move the robot backward by 500 pixels
       */
+      back(100);
 
       /*
          #5 -- Turn your robot left by 180 degrees.
@@ -91,6 +95,7 @@ public class MoveTutorial extends JuniorRobot
                      This function turns your robot left by the number of degrees you specify.
                      E.g. turnleft(12) -> turns the robot left by 12 degrees
       */
+      turnLeft(180);
 
       /*
         Congratulations! You have learned how to move your robot around the battlefield. 

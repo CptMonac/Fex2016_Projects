@@ -50,6 +50,7 @@ public class ScanTutorial extends Robot
                    This function sets the colors for your robot's body, gun, radar, bullets, and radar-scans.
             E.g. setColors(orange, red, yellow, blue, pink) -> orange body, red gun, yellow radar, blue bullets, pink radar-scans
     	*/
+		setColors(Color.black, Color.blue, Color.orange, Color.white, Color.red);
 
 		while(true)
 		{
@@ -65,6 +66,7 @@ public class ScanTutorial extends Robot
 							This function turns the radar to the right by the number of degrees you specify
 						E.g. turnRadarRight(20) -> Move the radar in a 20 degree scan around the robot
 	        */
+			turnRadarRight(360);
 		}
 	}
 
@@ -88,11 +90,13 @@ public class ScanTutorial extends Robot
 					This function returns the angle that the radar should turn to lock onto the enemy robot you specify
 					E.g. getEnemyRadarHeading(enemyRobot) -> returns 10 degrees to lock onto enemyRobot 			
 		*/
+		enemyRadarAngle = getEnemyRadarHeading(enemyRobot);
 
 		/*
 			#2.2 -- Turn your radar to face the angle that the enemy robot was spotted. 
 					This will be the angle in your 'enemyRadarAngle' variable above
 		*/
+		turnRadarRight(1.9*enemyRadarAngle);
 		
 		
 		/*
@@ -103,6 +107,7 @@ public class ScanTutorial extends Robot
 					This function returns the angle that the gun should turn to face the enemy robot you specify
 					E.g. getEnemyGunHeading(enemyRobot) -> returns 20 degrees to face the enemyRobot
 		*/
+		enemyGunAngle = getEnemyGunHeading(enemyRobot);
 
 		/*
 			#3.2 -- Turn your gun to face the angle that the enemy robot was spotted.
@@ -113,6 +118,7 @@ public class ScanTutorial extends Robot
 					E.g. turnGunRight(20) -> Turn the gun right by 20 degrees
 
 		*/
+		turnGunRight(enemyGunAngle);
 
 
 		/*
@@ -123,6 +129,7 @@ public class ScanTutorial extends Robot
 						You can only specify a number between 1 and 3. The higher numbers you specify, the longer the gun takes to recharge before it can fire again.
 				E.g. fire(2) -> fires a bullet with power 2 at the enemy robot
 		*/
+		fire(2);
 	}
 
 	public void onHitByBullet(HitByBulletEvent bulletEvent)
@@ -146,6 +153,9 @@ public class ScanTutorial extends Robot
 
 		*/
 
+		turnRight(45);
+		ahead(60);
+
 	}
 	
 	public void onHitWall(HitWallEvent wallEvent)
@@ -168,6 +178,8 @@ public class ScanTutorial extends Robot
                     E.g. back(500) -> move the robot backward by 500 pixels
 
 		*/
+        turnLeft(20);
+        back(10);
 	}
 
 	public void onBulletHit(BulletHitEvent bulletEvent)
