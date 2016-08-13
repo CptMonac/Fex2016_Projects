@@ -41,15 +41,7 @@ public class MoveTutorial extends JuniorRobot
        Reference: The 'run' function is the function that tells your robot what to do, and how to dress.
     */
     
-    /*
-       #1 -- Set your robot's colors to have the following properties:
-              black body, yellow gun, blue radar, white bullets, red radar-scans
-        
-        Reference: setColors(<body color>, <gun color>, <radar color>, <bullet color>, <radar-scan color>)
-                   This function sets the colors for your robot's body, gun, radar, bullets, and radar-scans.
-            E.g. setColors(orange, red, yellow, blue, pink) -> orange body, red gun, yellow radar, blue bullets, pink radar-scans
-    */
-    setColors(black, yellow, blue, white, red);
+   setColors(black, yellow, blue, white, red); //Set your robot's colors to have black body, yellow gun, blue radar, white bullets, red radar-scans
    
     while(true)
     {
@@ -60,42 +52,13 @@ public class MoveTutorial extends JuniorRobot
 
       turnTo(0);     //This function starts the robot facing forward
       
-      /*
-         #2 -- Turn your robot right by 90 degrees.
-
-          Reference: turnRight(<no. of degrees>)
-                     This function turns the robot right by the number of degrees you specify.
-                     E.g. turnRight(12) -> turn the robot right by 12 degrees 
-      */
-      turnRight(90);
+      turnRight(90); //Turn your robot right by 90 degrees.
       
-      /*
-         #3 -- Move your robot forward by 100 pixels.
-               A pixel is the unit of measurement in the battle-field.
-
-          Reference: ahead(<no. of pixels>)
-                     This function moves the robot ahead by the number of pixels you specify.
-                     E.g. ahead(500) -> move the robot ahead by 500 pixels
-      */
-      ahead(100);
+      ahead(100);    //Move your robot forward by 100 pixels.
       
-      /*
-         #4 -- Move your robot backward by 100 pixels.
+      back(100);     //Move your robot backward by 100 pixels.
 
-         Reference: back(<no. of pixels>)
-                    This function moves the robot backward by the number of pixels you specify.
-                    E.g. back(500) -> move the robot backward by 500 pixels
-      */
-      back(100);
-
-      /*
-         #5 -- Turn your robot left by 180 degrees.
-
-          Reference: turnLeft(<no. of degrees>)
-                     This function turns your robot left by the number of degrees you specify.
-                     E.g. turnleft(12) -> turns the robot left by 12 degrees
-      */
-      turnLeft(180);
+      turnLeft(180); //Turn your robot left by 180 degrees.
 
       /*
         Congratulations! You have learned how to move your robot around the battlefield. 
