@@ -9,21 +9,6 @@ import java.awt.*;
 	This means the top wall is at 0 degrees, the right wall is at 90 degrees, and the left wall is at 270 degrees. 
 	Take a look at 'RobocodeAngles.jpg' in the 'Lesson_2' folder for an overview of the angles. 
 
-	Pre-flight Instructions:
-	1. Follow the numbered instructions in order. E.g. #1 -- Move the radar in a 360 degree circle around your robot -> would be the first thing you do
-   	2. In Java, lines must end with a semi-colon. Don't forget to add one at the end of each line.
-   	3. In Java, functions are case-sensitive, make sure you are typing a function name exactly as it looks in the reference comment.
-   	4. After finishing every comment, save the program (Ctrl+S), and then compile it (Ctrl+B).
-   	5. You can add your robot to the battlefield after every save to see what you've just changed.
-
-   	Testing your robot on the battlefield:
-    1. If you don't have the Robocode program already open, double-click the 'robocode.bat' file in the Robocode folder
-    2. Click the 'Battle' menu, then select New
-    3. Under the 'Packages' column, select 'gwntutorial'. You should now see the list of GWN robots in the 'Robots' column on the right.
-    4. Pick the robot you're working on from the left (e.g. ScanTutorial) and press 'Add' button.
-    5. Pick another robot you want to battle against. (e.g. sample.Crazy) and press 'Add' button.
-    6. Press the 'Start Battle' button.
-    
     Additional reference information and documentation is available in the 'javadoc' folder under 'Robocode'
 */
 
