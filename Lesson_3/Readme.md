@@ -3,7 +3,7 @@
 Pre-flight instructions:
 **Pre-lesson prep**
 * Download GWN Fex2016_Projects folder, unzip and save to desktop.
-* Install p5.js on all computers by unzipping 'p5-win.zip' from 'Lesson_2' folder to desktop.
+* Install p5.js on all computers by unzipping 'p5-win.zip' from 'Lesson_3' folder to desktop.
 
 ---
 10 - 15 min: 
