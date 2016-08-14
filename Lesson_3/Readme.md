@@ -8,6 +8,7 @@ Pre-flight instructions:
 ---
 10 - 15 min: 
 **Intro to p5.js**   
+* What does sound actually look like? [Watch the video from npr for a fascinating discovery.](http://www.npr.org/2014/04/09/300563606/what-does-sound-look-like)
 * p5.js is a JavaScript library that aims to make coding accessible for artists, designers, educators, and beginners.
 * It uses web technologies like HTML5 Canvas to make everything more interactive.
 * Have class run through 'IntroTutorial' sketch to familiarize themselves with the language, and the editor.

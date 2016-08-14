@@ -15,6 +15,7 @@ import java.awt.*;
    	3. In Java, functions are case-sensitive, make sure you are typing a function name exactly as it looks in the reference comment.
    	4. After finishing every comment, save the program (Ctrl+S), and then compile it (Ctrl+B).
    	5. You can add your robot to the battlefield after every save to see what you've just changed.
+   	6. When you are finished with the comment, switch with your partner and move to the next comment block.
 
    	Testing your robot on the battlefield:
     1. If you don't have the Robocode program already open, double-click the 'robocode.bat' file in the Robocode folder
