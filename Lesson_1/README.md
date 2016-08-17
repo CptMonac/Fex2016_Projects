@@ -1,4 +1,4 @@
-#Lesson 1: Introduction to Building websites
+# Lesson 1: Introduction to Building websites
 
 Pre-flight instructions:
 **Pre-lesson prep**  
