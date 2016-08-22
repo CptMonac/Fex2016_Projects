@@ -17,7 +17,7 @@
 Robocode is a programming game where the goal is to code a robot to compete against other robots in a battle arena. The player is the programmer of the robot who has no direct influence over the game. Instead, the player must write the Artificial Intelligence (AI) of the robot telling it how to behave and react.
 
 >A robot consists of three individual parts: the `tank body`, `the gun`, and `the radar`
-![robotAnatomy](readmeFiles/Robotanatomy.png)
+![robotAnatomy](readmeFiles/RobotAnatomy.png)
 
 >The `tank body` carries the gun and the radar on top. It is used for moving the robot forward and back, and turning left or right.
 
@@ -36,7 +36,7 @@ Let's demo a robot battle to see what gameplay looks like:
 > 5. Once the battle is finished, you can close the Robocode window.
 
 RoboCode provides a robot editor that allows us to create new robots or modify robots that already exist. In this lesson we will be modifying the GWN sample robot already provided. Let's load it into Robocode and take a look:
-![RobotEditor](readmeFiles/RobotEditor.JPG)
+![RobotEditor](readmeFiles/RobotEditor.JPG)  
 *Loading a robot into the robot editor*
 > 1. In the `Robocode` folder, double-click the `robocode.bat` file.
 > 2. Click the `Robot` menu, then select `Source Editor`.
@@ -116,13 +116,13 @@ Let's set the colors for the GWN sample robot.
 > *Example: `turnleft(12)` -> turns the robot left by 12 degrees*
 
 ### Create your own champion bot
-![Championbot](readmeFiles/championbot.jpg)
+![Championbot](readmeFiles/championbot.JPG)
 *Robots competing on the battlefield*
 
 In this lesson, you'll learn how to use the robot radar and gun to make your robot a champion in the battlefield. You will create a robot that will be able to compete with the sample robots already provided in Robocode.
 
 In the Robocode game, angles increase in a clockwise direction starting from "North".
-![roboAngles](readmeFiles/RobocodeAngles.jpg)
+![roboAngles](readmeFiles/RobocodeAngles.JPG)
 
 **Open the champion bot file in the Robocode editor**
 > 1. In the `Robocode` folder, double-click the `robocode.bat` file.
