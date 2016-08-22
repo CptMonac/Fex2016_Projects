@@ -109,7 +109,7 @@ c. Let’s animate your ellipse by moving it across the canvas.
 >*`center = center + 10` -> Adds ten to the 'center'' variable every time it’s called.*
 
 ### Music Visualizer Sketch Program
-![Intro](readmeFiles/songviz.jpg)
+![Intro](readmeFiles/songviz.JPG)
 
 In this lesson we’ll be using the p5.js library to display visuals in real-time for a song-file. [Here’s a preview of what you’ll be creating.](http://cptmonac.me/Fex2016_Projects/Lesson_3/MusicVisualization.html)
 
