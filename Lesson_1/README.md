@@ -11,7 +11,7 @@
   * `Recap` : 20 min
 
 ### Intro to HTML & CSS
-![OpenGWNFolder](readmeFiles/OpenFiles.jpg)
+![OpenGWNFolder](readmeFiles/OpenFiles.JPG)
 *HTML in Brackets Editor*
 
 HTML stands for HyperText Markup Language. Hypertext means "text with links in it". Any time you click on a word or link that brings you to a new webpage, you've clicked on hypertext.
