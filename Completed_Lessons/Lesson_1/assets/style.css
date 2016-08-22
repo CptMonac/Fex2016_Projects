@@ -1,111 +1,32 @@
-/*
-    This is the CSS file for your company site.
-    CSS stands for Cascading Style Sheets and it's the thing that makes webpages look pretty. You can think of it like skin and makeup that covers HTML pages.
-    The HTML tags created in your HTML document have corresponding CSS tags whose look can be modified using CSS properties. 
-*/
 
 body{
-    /*
-        Reference: 'Body' here refers to the <body> tag from the HTML file. 
-        You can modify attributes in this tag that will apply to the entire body of the HTML site.
-    */
-    
-    /*
-        #5.2: We want to center-align the site body so everything is not hugging the left edge.
-              After the text is center-aligned, return to the 'index.html' document.
-    
-        Reference: text-align:<center>,<left>,<right>.
-            The text-align property allows you to define how you want the text to be tag to be aligned. You can choose 'center', 'left', or 'right'.
-                E.g. text-align: right; -> will align the text on the web page to the right
-    */
+   
     text-align: center;
     
-    /*
-        #5.3 Let's also make the text on the page more legible. We're going to tweak the font settings
-             Change the font for the body of the page to "Arial"
-    
-        Reference: font-family:<font name>. The font-family property changes the font of the tag to the font specified in <font name>
-            E.g. font-family:"Times New Roman"; -> changes the font of the body of the page to Times New Roman
-    */
     font-family: "Arial";
 }
 
 a{
-    /*
-        Reference: 'a' here refers to the <a> anchor tag from the HTML file.
-        Modifying properties here affects all anchor tags on the page
-    */
     
-    
-    /*
-        #9.2: We want to make our Facebook and Twitter links look like buttons.
-              Add a solid border around the anchor tag
-    
-        Reference: border:<solid>, <dotted>, <dashed>, <groove>, <ridge>, <inset>, <outset>, <none>, <hidden>
-            The broder property specifies what kind of border you want to display for an HTML tag.
-            E.g. border:dotted; -> will create a dotted border around the anchor tag
-    */
     border: solid;
     
-    /*
-        #9.3: The border is very close to the text. Let's add more space between the border and the text.
-              Add a padding of 20px to your anchor tag to add space between the border and text.
-    
-        Reference: padding:<no. of pixels>. This property is used to generate space around a tag.
-            E.g. padding:40px; -> will create a 40px space around the anchor tag.
-    */
     padding: 20px;
     
-    /*
-        #9.4: The borders now seem to be expanding into the paragraph above. Let's fix this.
-              Use the 'display' property to tell the browser to draw the anchor tag with an 'inline-block'
-    
-        Reference: display:<inline>,<block>, <inline-block>, <flex>, <table>, <inline-table>.
-                The display property specifies the type of box that will be used to drawn an HTML element
-    */
     display: inline-block;
-    
-    /*
-        #9.5: Let's remove the underline from the anchor tag.
-              Remove the underline from the anchor tag containing your Facebook and Twitter links
-    
-        Reference: text-decoration:<none>, <underline>, <overline>, <line-through>
-              The text-decoration property specifies the decoration you want to add to text.
-            E.g. text-decoration: overline; -> will add an overline decoration to the text in a tag
-    */
+ 
     text-decoration: none;
 }
 
 p{
     margin: 0 auto;         /* This property centers the paragraph in the middle of the web page */
+    color: #505050;         /* Set the default paragraph color to light gray */
 
-    /*
-        #10.1: The paragraphs in the page look wide. Let's make them the same size as the image.
-               Change the width of the paragraph tag to be 800px
-    
-        Reference: width:<no of pixels>. This property changes the width of your tag to the number you specify
-            E.g. width: 200px; -> will change the width of the paragraph tag to 200px.
-    */
     width: 800px;
-    
-    /*
-        #10.2: The paragraph looks jagged with center-align. Let's apply a left-align to only the paragraphs in the page.
-               Add a left-align to the paragraphs in the HTML page
-    
-         Reference: text-align:<center>,<left>,<right>.
-            The text-align property allows you to define how you want the text to be tag to be aligned. You can choose 'center', 'left', or 'right'.
-                E.g. text-align: right; -> will align the text on the web page to the right
-    */
+    font-size: 21px;
+    line-height: 1.6; 
+   
     text-align: left;
-    
-    /*  #10.3: Let's add more space in-between the paragraphs to make them more distinct:
-               Add a 10px space margin between your paragraphs
-        
-        Reference: padding:<no. of pixels>. This property is used to generate space around a tag.
-            E.g. padding:40px; -> will create a 40px space around the paragraph tag.
-    */
     padding: 10px;         
 
 }
 
-/* #11: Congratulations!! Your webpage is complete. Feel free to continue editing and tweaking any additional properties you want. */
