@@ -1,34 +1,32 @@
-/*
-    This is the CSS file for your company site.
-    CSS stands for Cascading Style Sheets and it's the thing that makes webpages look pretty. You can think of it like skin and makeup that covers HTML pages.
-    The HTML tags created in your HTML document have corresponding CSS tags whose look can be modified using CSS properties. 
-*/
 
 body{
+   
     text-align: center;
     
     font-family: "Arial";
 }
 
 a{
+    
     border: solid;
     
     padding: 20px;
     
     display: inline-block;
-    
+ 
     text-decoration: none;
 }
 
 p{
     margin: 0 auto;         /* This property centers the paragraph in the middle of the web page */
+    color: #505050;         /* Set the default paragraph color to light gray */
 
     width: 800px;
-    
+    font-size: 21px;
+    line-height: 1.6; 
+   
     text-align: left;
-    
     padding: 10px;         
 
 }
 
-/* #11: Congratulations!! Your webpage is complete. Feel free to continue editing and tweaking any additional properties you want. */
